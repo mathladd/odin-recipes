@@ -13,7 +13,7 @@ body {
 .main-header-container {
     background: 
         rgba(255, 255, 255, 0.4) 
-        url(../images/food-header.jpg);
+        url(../images/foodheader.jpg);
     background-blend-mode: lighten;
     background-position-x: 0px;
     background-position-y: -300px;
