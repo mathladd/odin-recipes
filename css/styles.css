@@ -1,8 +1,146 @@
+/*---------------- general css for all pages ----------------*/
 body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #353535;
+}
+
+.links {
+    text-decoration: none;
+    color: #353535;
+}
+
+/*--------------- everything below will modify main page -------------*/
+.main-container {
+}
+
+.main-header-container {
+    background: 
+        rgba(255, 255, 255, 0.4) 
+        url(../images/food-header.jpg);
+    background-blend-mode: lighten;
+    background-position-x: 0px;
+    background-position-y: -300px;
+    
+    height: 50px;
+
+    border-radius: 20px;
 
 }
 
-img {
-    height: 500px;
+.main-header-content {
+    background-color: white;
+    width: fit-content;
+
+    padding: 16px 30px 16px 15px;
+    border-radius: 20px;
+
+    color: #797878;
+    font-size: 18px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+.main-header-divider {
+    width: 50%;
+    max-width: 500px;
+    
+    padding: 0;
+    margin: 30px auto;
+    margin-bottom: 50px;
+
+    color: #a3a3a3;
+    text-align: center;
+}
+
+.main-content-container {
+    background-color: rgb(255, 246, 228);
+
+    height: 1000px;
+
+    margin: 30px 0px 0px 0px;
+    padding: 20px 30px 20px 30px;
+    border-style: solid;
+    border-color: #6d4522;
+    border-radius: 20px;
+
+    text-align: center;
+}
+
+.main-list-of-recipes {
+    width: 50%;
+    max-width: 500px;
+
+    padding: 0;
+    margin: 50px auto;
+
+    list-style: none;
+    list-style-position: inside;
+}
+
+.main-list-of-recipes li {
+    margin: 10px 0px 10px 0px;
+    padding: 6px;
+    border-style: solid;
+    border-color: #8b8b8b;
+    border-radius: 20px;
+    border-width: 2px;
+
+    text-align: center;
+    font-style: italic;
+}
+
+/*------------ everything below will modify recipe pages-------------*/
+.recipe-title {
+    margin: 0px 0px 20px 0px;
+    font-size: 10px;
+}
+
+.recipe-description {
+    max-width: 500px;
+
+    margin: 0px 0px 50px 0px;
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 11px;
+    font-style: italic;
+    font-weight: 500;
+}
+
+.recipe-dish-image {
     width: auto;
+    height: 200px;
+}
+
+.recipe-list-of-ingredients-title {
+    font-size: 12px;
+}
+
+.recipe-list-of-ingredients ul {
+    max-width: 500px;
+
+    padding: 0;
+    margin: 0px 30px 50px 30px;
+
+    list-style:circle;
+    font-size: 11px;
+
+}
+
+.recipe-list-of-blueprints-title {
+    font-size: 12px;
+}
+
+.recipe-list-of-blueprints ol {
+    max-width: 500px;
+
+    padding: 0;
+    margin: 0px 30px 50px 30px;
+
+    font-size: 11px;
+}
+
+.recipe-list-of-blueprints li {
+    padding: 0;
+    margin: 0px 0px 5px 0px;
+
+    font-size: 11px;
 }
