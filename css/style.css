@@ -87,15 +87,30 @@ body {
 }
 
 /* ------------ everything below will modify recipe pages------------ */
+.recipe-container {
+    background-color: #fffdf8;
+
+    width: 80%;
+
+    padding: 25px 0px 0px 40px;
+    border: #817d4298;
+    border-style:dashed;
+    border-radius: 20px;
+    border-width: 3px;
+}
+
 .recipe-title {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 30px 0px;
+
+    color: #707070;
     font-size: 12px;
+    font-weight: 500;
 }
 
 .recipe-description {
     max-width: 500px;
 
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 60px 0px;
     
     font-family: 'Courier New', Courier, monospace;
     font-size: 13px;
@@ -138,7 +153,7 @@ body {
 
 .recipe-list-of-blueprints li {
     padding: 0;
-    margin: 0px 0px 5px 0px;
+    margin: 0px 0px 10px 0px;
 
     font-size: 13px;
 }
