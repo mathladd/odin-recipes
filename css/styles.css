@@ -12,9 +12,9 @@ body {
 /*--------------- everything below will modify main page -------------*/
 .main-header-container {
     background: 
-        rgba(255, 255, 255, 0.4) 
+        /* rgba(255, 255, 255, 0.4)  */
         url(../images/foodheader.jpg);
-    background-blend-mode: lighten;
+    /* background-blend-mode: lighten; */
     background-position-x: 0px;
     background-position-y: -300px;
     
