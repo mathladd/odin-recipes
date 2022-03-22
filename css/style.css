@@ -1,4 +1,4 @@
-/*---------------- general css for all pages ----------------*/
+/* ---------------- general css for all pages ---------------- */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     color: #353535;
@@ -9,12 +9,12 @@ body {
     color: #353535;
 }
 
-/*--------------- everything below will modify main page -------------*/
+/* -------------- everything below will modify main page ------------ */
 .main-header-container {
     background: 
-        /* rgba(255, 255, 255, 0.4)  */
+        rgba(255, 255, 255, 0.4) 
         url(../images/foodheader.jpg);
-    /* background-blend-mode: lighten; */
+    background-blend-mode: lighten;
     background-position-x: 0px;
     background-position-y: -300px;
     
@@ -85,7 +85,7 @@ body {
     font-style: italic;
 }
 
-/*------------ everything below will modify recipe pages-------------*/
+/* ------------ everything below will modify recipe pages------------ */
 .recipe-title {
     margin: 0px 0px 20px 0px;
     font-size: 10px;
