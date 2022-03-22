@@ -27,11 +27,11 @@ body {
     background-color: white;
     width: fit-content;
 
-    padding: 16px 30px 16px 15px;
+    padding: 15px 30px 15px 15px;
     border-radius: 20px;
 
     color: #797878;
-    font-size: 18px;
+    font-size: 20px;
     font-family:'Courier New', Courier, monospace;
 }
 
@@ -89,7 +89,7 @@ body {
 /* ------------ everything below will modify recipe pages------------ */
 .recipe-title {
     margin: 0px 0px 20px 0px;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 .recipe-description {
@@ -98,7 +98,7 @@ body {
     margin: 0px 0px 50px 0px;
     
     font-family: 'Courier New', Courier, monospace;
-    font-size: 11px;
+    font-size: 13px;
     font-style: italic;
     font-weight: 500;
 }
@@ -109,7 +109,7 @@ body {
 }
 
 .recipe-list-of-ingredients-title {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .recipe-list-of-ingredients ul {
@@ -119,12 +119,12 @@ body {
     margin: 0px 30px 50px 30px;
 
     list-style:circle;
-    font-size: 11px;
+    font-size: 13px;
 
 }
 
 .recipe-list-of-blueprints-title {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .recipe-list-of-blueprints ol {
@@ -133,12 +133,12 @@ body {
     padding: 0;
     margin: 0px 30px 50px 30px;
 
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .recipe-list-of-blueprints li {
     padding: 0;
     margin: 0px 0px 5px 0px;
 
-    font-size: 11px;
+    font-size: 13px;
 }
