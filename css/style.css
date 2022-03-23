@@ -1,6 +1,7 @@
 /* ---------------- general css for all pages ---------------- */
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    line-height: 1.8em;
 }
 
 .links {
@@ -157,5 +158,5 @@ body {
 
 .recipe-list-of-blueprints li {
     padding: 0;
-    margin: 0em 0em 0.6em 0em;
+    margin: 0em 0em 0.5em 0em;
 }
