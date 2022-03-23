@@ -10,29 +10,29 @@ body {
 
 /* -------------- everything below will modify main page ------------ */
 .main-header-container {
-    background: 
-        rgba(255, 255, 255, 0.4) 
-        url(../images/foodheader.jpg);
-    background-blend-mode: lighten;
-    background-position-x: 0px;
-    background-position-y: -300px;
-    
     display: flex;
     align-items: stretch;
 
     height: 4em;
     border-radius: 20px;
+
+    background: 
+        rgba(255, 255, 255, 0.4) 
+        url(../images/foodheader.jpg);
+    background-blend-mode: lighten;
+    background-position-x: 0em;
+    background-position-y: -16em;
 }
 
 .main-header-content {
-    background-color: rgba(255, 241, 212, 0.822);
-
-    border-radius: 20px;
-
     display: flex;
     align-items: center;
-    padding: 0 30px 0 10px;
+    justify-content: center;
 
+    padding: 0em 1.5em 0em 0.5em;
+    border-radius: 20px;
+
+    background-color: rgba(255, 241, 212, 0.822);
     font-size: 2.5rem;
     font-family:'Courier New', Courier, monospace;
 }
@@ -43,29 +43,26 @@ body {
 
 .main-header-divider {
     width: 50%;
-    max-width: 500px;
-    
+    max-width: 35em;
     padding: 0;
-    margin: 30px auto;
-    margin-bottom: 50px;
+    margin: 3em auto;
+    margin-bottom: 5em;
 
     color: #d3d3d3;
     text-align: center;
 }
 
 .main-content-container {
-    background-color: rgb(255, 246, 228);
-
     height: auto;
     width: 60%;
-
     margin: auto;
-    padding: 20px 30px 20px 30px;
+    padding: 2em 3em 2em 3em;
     border-style: solid;
     border-color: #6d4522;
     border-radius: 20px;
     border-width: 2px;
 
+    background-color: rgb(255, 246, 228);
     /* text-align: center; */
     font-size: 1.1rem;
     font-family: 'Courier New', Courier, monospace;
@@ -73,22 +70,21 @@ body {
 }
 
 .main-list-of-recipes {
-    width: 50%;
-    max-width: 500px;
+    list-style: none;
+    list-style-position: inside;
 
+    width: 50%;
+    max-width: 35em;
     padding: 0;
-    margin: 50px auto;
+    margin: 5em auto;
 
     font-size: 1.2rem;
     font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-
-    list-style: none;
-    list-style-position: inside;
 }
 
 .main-list-of-recipes li {
-    margin: 10px 0px 10px 0px;
-    padding: 6px;
+    margin: 1em 0em 1em 0em;
+    padding: 0.3em;
     border-style: solid;
     border-color: #8b8b8b;
     border-radius: 20px;
@@ -100,19 +96,18 @@ body {
 
 /* ------------ everything below will modify recipe pages------------ */
 .recipe-container {
-    background-color: #fffdf8;
-
     width: 80%;
-
-    padding: 25px 0px 0px 40px;
+    padding: 2em 0em 0em 4em;
     border: #817d4298;
     border-style:dashed;
     border-radius: 20px;
     border-width: 3px;
+
+    background-color: #fffdf8;
 }
 
 .recipe-title {
-    margin: 0px 0px 30px 0px;
+    margin: 0em 0em 1em 0em;
 
     color: #707070;
     font-size: 2.5rem;
@@ -120,9 +115,8 @@ body {
 }
 
 .recipe-description {
-    max-width: 500px;
-
-    margin: 0px 0px 60px 0px;
+    max-width: 35em;
+    margin: 0em 0em 3em 0em;
     
     font-family: 'Courier New', Courier, monospace;
     font-size: 1rem;
@@ -140,14 +134,13 @@ body {
 }
 
 .recipe-list-of-ingredients ul {
-    max-width: 500px;
-
-    padding: 0;
-    margin: 0px 30px 50px 30px;
-
     list-style:circle;
-    font-size: 1rem;
 
+    max-width: 35em;
+    padding: 0;
+    margin: 0em 1.5em 2.5em 1.5em;
+
+    font-size: 1rem;
 }
 
 .recipe-list-of-blueprints-title {
@@ -155,15 +148,14 @@ body {
 }
 
 .recipe-list-of-blueprints ol {
-    max-width: 500px;
-
+    max-width: 35em;
     padding: 0;
-    margin: 0px 30px 50px 30px;
+    margin: 0em 1.5em 2.5em 1.5em;
 
     font-size: 1rem;
 }
 
 .recipe-list-of-blueprints li {
     padding: 0;
-    margin: 0px 0px 10px 0px;
+    margin: 0em 0em 0.6em 0em;
 }
